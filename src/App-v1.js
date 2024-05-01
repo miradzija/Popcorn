@@ -61,16 +61,6 @@ export default function App() {
   const [error, setError] = useState("");
   const [selectedId, setSelectedId] = useState(null);
 
-  // useEffect(function () {
-  //   console.log("A");
-  // }, []);
-
-  // useEffect(function () {
-  //   console.log("B");
-  // });
-
-  // console.log("C");
-
   function handleSelectMovie(id) {
     setSelectedId((selectedId) => (id === selectedId ? null : id));
   }
